@@ -1,0 +1,2 @@
+class AddPhotoToProfile < ApplicationRecord
+end

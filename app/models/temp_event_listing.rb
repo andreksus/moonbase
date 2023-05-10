@@ -1,0 +1,2 @@
+class TempEventListing < ApplicationRecord
+end

@@ -1,0 +1,8 @@
+version: 1
+cron:
+  - name: "DeleteListingsWhichExpirationJob.perform"
+    url: "task/delete_listings_which_expiration"
+    schedule: "10 * * * *"
+  - name: "HealthcheckWorkersJob.perform"
+    url: "task/health_check_workers"
+    schedule: "30 * * * *"

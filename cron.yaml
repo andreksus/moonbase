@@ -1,0 +1,8 @@
+version: 1
+cron:
+  - name: "PullingEventsByTypeSuccessful"
+    url: "task/pulling_events_by_type_successful"
+    schedule: "* * * * *"
+  - name: "PullingGasFeeJob.perform"
+    url: "task/get_gas_fee"
+    schedule: "* * * * *"
